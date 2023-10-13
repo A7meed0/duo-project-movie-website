@@ -1,0 +1,35 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix-800x450.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px; 
+     text-align: center;
+    margin: 0;
+     height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction:column;
+
+  }
+  .input,
+  .submit {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .submit {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+
+  .submit:hover {
+    background-color: #2980b9;
+  } 
